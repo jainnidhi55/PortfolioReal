@@ -1,0 +1,231 @@
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+			$("#btn1").click(function(){
+				$("#box").animate({width: "100px"});
+				$("#box2").animate({width: "100px"});
+				$("#box3").animate({width: "100px"});
+
+			});
+			$("#btn2").click(function(){
+				$("#box").animate({width: "1500px"});
+				$("#box2").animate({width: "1500px"});
+				$("#box3").animate({width: "1500px"});
+			});
+		});
+		</script>
+	</head>
+	
+	<style>
+	body{
+		background-image: url("https://sp.yimg.com/ib/th?id=JN.6qm8ERnQbacBHKJFtaSBNg&pid=15.1&P=0")
+	}
+	</style>
+	
+	
+	
+	<body>
+	    <center>
+		<button id="btn1">Animate width</button>
+		<button id="btn2">Reset width</button>
+
+		<div id="box" style="background:#00CDCD;height:50px;width:100px;margin:6px;"></div>
+
+
+		<div id="box2" style="background:#00F5FF;height:50px;width:100px;margin:6px;"></div>
+
+		<div id="box3" style="background:#1E90FF;height:50px;width:100px;margin:6px;"></div>
+
+
+		<h1> 
+		Nidhi's Porfolio 
+		</h1>
+		<p><a href="http://nidhijain55.wordpress.com">See my wordpress from last summer!</a></p>
+		</center>
+		<style>
+		#picDiv{
+			background-size:100% 100%;
+			font-size: 0px;
+			width: 400px;
+			height: 400px;
+			position: absolute;
+			text-align: left;
+			border-radius:500px;
+			border: 5px white solid;
+		}
+		
+		#picDiv:hover{
+			background-image: none;
+			background-color: white;
+			font-size: 15px;
+			text-align: center;
+			border: 5px white solid;
+		}
+		
+		.picText{
+			text-align:center;
+			margin-top: 80px;
+			color: black;
+			font-family: Arial;
+		}
+		
+		.paintDiv{
+			background-image: url("painting.png");
+			margin-left: 700px;
+			margin-right: auto;
+			margin-top:80px;
+			border: 5px white solid;
+		}
+		
+		.fishDiv{
+			background-image: url("fish.png");
+			margin-left: 150px;
+			margin-right: auto;
+			margin-top:960px;
+			border: 5px white solid;
+		}
+		
+		.cityDiv{
+			background-image: url("city.png");
+			margin-left: 150px;
+			margin-right: auto;
+			margin-top:520px;
+			border: 5px white solid;
+		}
+		
+		.brickDiv{
+			background-image: url("brick.png");
+			margin-left: 700px;
+			margin-right: auto;
+			margin-top:520px;
+			border: 5px white solid;
+		}
+		
+		.profileDiv{
+			background-image: url("profile.png");
+			margin-left: 150px;
+			margin-right: auto;
+			margin-top:80px;
+			border: 5px white solid;
+		}
+		
+		.obamaDiv{
+			background-image: url("http://b.vimeocdn.com/ts/179/776/179776198_640.jpg");
+			margin-left: 700px;
+			margin-right: auto;
+			margin-top:960px;
+			border: 5px white solid;
+		}
+		
+		
+		</style>
+		
+		
+		
+		<div class = "paintDiv" id = "picDiv">
+			<p class = "picText">
+			Jackson Pollick Painting Project
+			</br>
+			</br>
+			In this project, I used Javascript to create a Jackson Pollick painting. It creates a style similar to a paint brush, resulting in a large circle
+			and then a series of smaller and smaller circles. The colors of the paint are randomized between brushes, but I have set them so that they are 
+			within the same scheme. Using this program, you can create several unique pieces of art! 
+			
+			</p>
+		</div>
+		
+		<div class = "fishDiv" id = "picDiv">
+			<p class = "picText">
+			Aquarium 
+			</br>
+			</br>
+			Here, I created a graphic aquarium which included three distinct types of fish. The goldfish followed the mouse,
+			the large, triangular fish would go back and forth inside the tank, and the shell near the sand would open
+			and close its mouth, randomly secreting bubbles. 
+			
+			</p>
+		</div>
+		
+		<p><a href="http://jainnidhi55.github.io/Building/">
+		<div class = "cityDiv" id = "picDiv">
+			<p class = "picText">
+			City Scroller 
+			</br>
+			</br>
+			In this project, I created a game in which the background city moves throughout the game. The scene takes
+			place in a starry night with a full moon and a shooting star. As the main player jumps over the evil rabbits,
+			the buildings of random heights move past the screen. This was a particularly challenging project, as it is
+			difficult to store all of the buildings without causing a stack overflow. As a solution, I decided to delete
+			a building everytime one is added. 
+			</p>
+		</div>
+		</a></p>
+		
+		<div class = "brickDiv" id = "picDiv">
+			<p class = "picText">
+			Brick Breaker Paddle Ball
+			</br>
+			</br>
+			Here, I made a typical paddle ball game in which the goal is to keep the ball bouncing 
+			on the paddle.I also added bricks and a point system, the more bricks one hits, the more
+			points accumulate. If the player loses and drops the ball, he has 4 lives to keep playing. 
+			</p>
+		</div>
+		
+		<div class = "profileDiv" id = "picDiv">
+			<p class = "picText">
+			About Me
+			</br>
+			</br>
+			Hi! My name is Nidhi Jain, and I'm a junior in high school interested in computer science.
+			I hope you enjoy my website! It consists of some of the several projects I am proud of
+			here at Girls Who Code. 
+			My email is jainnidhi55@gmail.com. Feel free to <p><a href="http://gmail.com">contact me!</a></p>
+			</p>
+		</div>
+		
+		<div class = "obamaDiv" id = "picDiv">
+			<p class = "picText">
+			About Me
+			</br>
+			</br>
+			Hi! My name is Nidhi Jain, and I'm a junior in high school interested in computer science.
+			I hope you enjoy my website! It consists of some of the several projects I am proud of
+			here at Girls Who Code. 
+			My email is jainnidhi55@gmail.com. Feel free to <p><a href="http://gmail.com">contact me!</a></p>
+			</p>
+		</div>
+		
+		<!--
+		</br>
+		<font size = "6"><font face = "Times New Roman" color = 000088>
+		This is from when I made a city scroller!
+		</font>
+		</br> 
+		</br>
+		<img src = "cityScroller.jpg" alt="HTML5 Icon" width="400">
+		<font size = "6"><font face = "Times New Roman" color = 000088>
+		</br>
+		</br>
+		This is from when I made a paddle ball game
+		</br> 
+		</br>
+		<img src = "paddleBall.jpg" alt="HTML5 Icon" width="400">
+		</br>
+		</br>
+		Here are some cool gifs!
+		</br>
+		</br>
+		<img src = "http://s3.favim.com/orig/44/cute-funny-gif-kids-Favim.com-369458.gif" width="400">
+		<img src = "http://25.media.tumblr.com/tumblr_lxcnzk2xkH1qkl5ono1_1280.gif#cute%20chocolate%20gif%20800x800" width="400">
+		</br>
+		<img src = "http://25.media.tumblr.com/6aa63a57307cbfc32654b11fd2b0cb69/tumblr_meo8moUf1Q1rkh2rbo1_500.gif" width="400">
+		<img src = "http://24.media.tumblr.com/tumblr_m83ttnbqRC1rtrlxto1_500.gif" width="400">
+		</br> -->
+		
+		
+		
+	</body>
+ </html> 
